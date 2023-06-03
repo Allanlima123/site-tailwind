@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Estilos de Fonte -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;300;400;700;900&family=Mukta:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Link tailwind css -->
+    <link rel="stylesheet" href="../src/css/tailwind.css" />
+
+    <title>Site com Tailwind</title>
+  </head>
+  <body class="bg-white">
+    <header class="bg-white h-20">
+      <div
+        class="max-w-7xl h-full m-auto flex items-center justify-between px-4"
+      >
+        <div class="w-44 h-12 object-cover">
+          <img src="/src/assets/image/logo 3.png" alt="LOGO" class="w-full" />
+        </div>
+
+        <nav class="flex">
+          <ul class="flex space-x-12">
+            <li class="font-inter font-semibold text-$brand-color-red text-lx">
+              <a href="">Início</a>
+            </li>
+
+            <li class="font-inter font-medium text-lx">
+              <a href="">Cursos</a>
+            </li>
+
+            <li class="font-inter font-medium text-lx">
+              <a href="">Vagas</a>
+            </li>
+
+            <li class="font-inter font-medium text-lx">
+              <a href="">Notícias</a>
+            </li>
+
+            <li class="font-inter font-medium text-lx">
+              <a href="">Contato</a>
+            </li>
+          </ul>
+
+          <div class="flex ml-16 space-x-6">
+            <a href="" class="block h-6 w-6">
+              <img src="/src/assets/image/InstagramLogo.png" alt="InstagramLogo" class="object-contain">
+            </a>
+
+            <a href="" class="block h-6 w-6">
+              <img src="/src/assets/image/FacebookLogo.png" alt="FacebookLogo" class="object-contain">
+            </a>
+            <a href="" class="block h-6 w-6">
+              <img src="/src/assets/image/LinkedinLogo.png" alt="LinkedinLogo" class="object-contain">
+            </a>
+          </div>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="h-96 bg-$dark-100% my-auto">
+        <div class="text-center">
+          <h1 class="font-mukta text-4xl text-white pt-20 pb-6">
+            Helcy Moreira Martins Aguiar
+          </h1>
+          <p
+            class="w-3/4 leading-9 text-2xl font-medium font-inter text-$gray-20% m-auto"
+          >
+            Com mais de 20 anos de atuação, a unidade da Etec Professora Helcy
+            Moreira Martins Aguiar se destaca no ensino médio e técnico,
+            recebendo constantemente menções e congratulações em todo o estado
+            de São Paulo.
+          </p>
+        </div>
+      </section>
+
+      <section>
+        <div class="flex text-center flex-wrap">
+          <div
+            class="bg-$dark-70% text-white font-inter font-medium text-lx w-1/3 py-16 px-14"
+          >
+            Mantida pelo governo do Estado de São Paulo, os cursos oferecidos –
+            além de qualidade ímpar – são totalmente gratuitos, levando para
+            toda a população um ensino de qualidade e a oportunidade de aprender
+            uma profissão.
+          </div>
+
+          <div
+            class="bg-$brand-color-red text-white font-inter font-medium text-lx w-1/3 py-16 px-14"
+          >
+            Contando com um corpo docente extremamente qualificado e estrutura
+            física moderna, os cursos oferecidos nesta unidade se destacam pela
+            qualidade de ensino, onde o aluno realmente aprende conteúdos
+            relevantes, de maneira fácil e didática.
+          </div>
+
+          <div
+            class="bg-roxa-50% text-white font-inter font-medium text-lx w-1/3 py-16 px-14"
+          >
+            Baseado em uma didática prática, os alunos são envolvidos em
+            conteúdos que abordam as diversas realidades do mercado, formando
+            assim mão de obra qualificada e proporcionando uma experiência
+            diferenciada para o aluno.
+          </div>
+        </div>
+      </section>
+
+      <section class="mb-24">
+        <h2 class="text-center font-mukta font-semibold text-4xl my-20">
+          Cursos técnicos
+        </h2>
+
+        <section
+          class="max-w-7xl m-auto flex items-center justify-center flex-wrap gap-3.5"
+        >
+          <div
+            class="w-72 h-72 bg-$gray-20% flex flex-col items-center justify-center rounded-md cursor-pointer transform hover:scale-105 transition duration-700 shadow-lg"
+          >
+            <div class="w-32 h-32 mb-6">
+              <img src="/src/assets/image/vacina.png" alt="Vacina" />
+            </div>
+            <span class="font-semibold font-inter text-lx text-$dark-100%"
+              >enfermagem</span
+            >
+          </div>
+
+          <div
+            class="w-72 h-72 bg-$gray-20% flex flex-col items-center justify-center rounded-md cursor-pointer transform hover:scale-105 transition duration-700 shadow-lg"
+          >
+            <div class="w-32 h-32 mb-6">
+              <img src="/src/assets/image/computador.png" alt="computador" />
+            </div>
+            <span class="font-semibold font-inter text-lx text-$dark-100%"
+              >desenvolvimento de sistemas</span
+            >
+          </div>
+
+          <div
+            class="w-72 h-72 bg-$gray-20% flex flex-col items-center justify-center rounded-md cursor-pointer transform hover:scale-105 transition duration-700 shadow-lg"
+          >
+            <div class="w-32 h-32 mb-6">
+              <img src="/src/assets/image/processo.png" alt="processo" />
+            </div>
+            <span class="font-semibold font-inter text-lx text-$dark-100%"
+              >recursos humanos</span
+            >
+          </div>
+
+          <div
+            class="w-72 h-72 bg-$gray-20% flex flex-col items-center justify-center rounded-md cursor-pointer transform hover:scale-105 transition duration-700 shadow-lg"
+          >
+            <div class="w-32 h-32 mb-6">
+              <img src="/src/assets/image/despesas.png" alt="administração " />
+            </div>
+            <span class="font-semibold font-inter text-lx text-$dark-100%"
+              >administração</span
+            >
+          </div>
+
+          <div
+            class="w-72 h-72 bg-$gray-20% flex flex-col items-center justify-center rounded-md cursor-pointer transform hover:scale-105 transition duration-700 shadow-lg"
+          >
+            <div class="w-32 h-32 mb-6">
+              <img
+                src="/src/assets/image/cana-de-acucar.png"
+                alt="cana-de-acucar"
+              />
+            </div>
+            <span class="font-semibold font-inter text-lx text-$dark-100%"
+              >açúcar e álcool</span
+            >
+          </div>
+
+          <div
+            class="w-72 h-72 bg-$gray-20% flex flex-col items-center justify-center rounded-md cursor-pointer transform hover:scale-105 transition duration-700 shadow-lg"
+          >
+            <div class="w-32 h-32 mb-6">
+              <img src="/src/assets/image/agricultura.png" alt="agricultura" />
+            </div>
+            <span class="font-semibold font-inter text-lx text-$dark-100%"
+              >agropecuária</span
+            >
+          </div>
+
+          <div
+            class="w-72 h-72 bg-$gray-20% flex flex-col items-center justify-center rounded-md cursor-pointer transform hover:scale-105 transition duration-700 shadow-lg"
+          >
+            <div class="w-32 h-32 mb-6">
+              <img src="/src/assets/image/vaca.png" alt="vaca" />
+            </div>
+            <span class="font-semibold font-inter text-lx text-$dark-100%"
+              >zootecnia</span
+            >
+          </div>
+
+          <div
+            class="w-72 h-72 bg-$gray-20% flex flex-col items-center justify-center rounded-md cursor-pointer transform hover:scale-105 transition duration-700 shadow-lg"
+          >
+            <div class="w-32 h-32 mb-6">
+              <img src="/src/assets/image/financeiro.png" alt="financeiro" />
+            </div>
+            <span class="font-semibold font-inter text-lx text-$dark-100%"
+              >agronegócio</span
+            >
+          </div>
+        </section>
+      </section>
+
+      <section class="flex mb-12">
+        <div class="w-1/2 bg-$brand-color-red flex items-center justify-center">
+          <h2 class="font-mukta text-5xl text-white">Estágios e empregos</h2>
+        </div>
+
+        <section class="w-1/2 h-1/6 bg-$gray-20%">
+          <div class="ml-14 mt-14">
+            <div>
+              <p class="font-mukta text-2xl font-semibold text-$dark-100%">
+                Lorem ipsum dolor sit amet
+              </p>
+              <span class="my-2 font-inter text-lg text-$dark-70% block"
+                >Publicado em 00/00/2000</span
+              >
+              <a
+                href=""
+                class="mb-16 block text-$brand-color-red underline font-medium font-inter"
+                >Mais mais sobre a vaga</a
+              >
+            </div>
+
+            <div>
+              <p class="font-mukta text-2xl font-semibold text-$dark-100%">
+                Lorem ipsum dolor sit amet
+              </p>
+              <span class="my-2 font-inter text-lg text-$dark-70% block"
+                >Publicado em 00/00/2000</span
+              >
+              <a
+                href=""
+                class="mb-16 block text-$brand-color-red underline font-medium font-inter"
+                >Mais mais sobre a vaga</a
+              >
+            </div>
+
+            <div>
+              <p class="font-mukta text-2xl font-semibold text-$dark-100%">
+                Lorem ipsum dolor sit amet
+              </p>
+              <span class="my-2 font-inter text-lg text-$dark-70% block"
+                >Publicado em 00/00/2000</span
+              >
+              <a
+                href=""
+                class="mb-12 block text-$brand-color-red underline font-medium font-inter"
+                >Mais mais sobre a vaga</a
+              >
+            </div>
+          </div>
+        </section>
+      </section>
+
+      <section class="mt-24">
+        <h2 class="font-mukta font-semibold text-4xl text-$dark-100% text-center mb-12">
+          Notícias
+        </h2>
+
+        <div class="max-w-7xl flex items-center justify-center m-auto flex-wrap gap-6">
+          <div class="rounded-lg w-96 bg-$gray-20%">
+            <div class="rounded-t-lg bg-$brand-color-red w-full h-52">
+              <img src="" alt="">
+            </div>
+
+            <div class="mt-10 ml-6">
+              <p class="font-mukta text-$dark-100% text-lg pb-4">Lorem ipsum dolor sit amet, 
+                consectetur adipiscing elit.</p>
+              <span class="block pb-4">Postado em 00/00/00</span>
+            </div>
+          </div>
+
+          <div class="rounded-lg w-96 bg-$gray-20%">
+            <div class="rounded-t-lg bg-$brand-color-red w-full h-52">
+              <img src="" alt="">
+            </div>
+
+            <div class="mt-10 ml-6">
+              <p class="font-mukta text-$dark-100% text-lg pb-4">Lorem ipsum dolor sit amet, 
+                consectetur adipiscing elit.</p>
+              <span class="block pb-4">Postado em 00/00/00</span>
+            </div>
+          </div>
+
+          <div class="rounded-lg w-96 bg-$gray-20%">
+            <div class="rounded-t-lg bg-$brand-color-red w-full h-52">
+              <img src="" alt="">
+            </div>
+
+            <div class="mt-10 ml-6">
+              <p class="font-mukta text-$dark-100% text-lg pb-4">Lorem ipsum dolor sit amet, 
+                consectetur adipiscing elit.</p>
+              <span class="block pb-4">Postado em 00/00/00</span>
+            </div>
+          </div>
+        </div>
+
+        <button class="my-24 m-auto block w-64 h-12 bg-$brand-color-red text-white font-inter font-medium rounded shadow-lg">Ver mais notícias</button>
+      </section>
+    </main>
+
+    <footer class="bg-$brand-color-red w-full py-20 relative">
+      <section class="flex justify-evenly h-full flex-wrap">
+        <div class="w-72">
+          <img src="/src/assets/image/footerimg 4.png" alt="logo Image">
+        </div>
+
+        <div class="w-80 space-y-4">
+          <div class="flex items-center">
+            <div class="w-12 h-12 bg-white rounded-full flex items-center justify-center mr-4">
+              <img src="/src/assets/image/GlobeHemisphereWest.png" alt="GlobeHemisphereWest">
+            </div>
+            <address>
+              <span class="font-inter font-normal text-xs text-$gray-20%">Rua Codelândia, 1367</span>
+              <h4 class="font-mukta font-medium text-base text-white">Cafelândia, SP</h4>
+            </address>
+          </div>
+
+          <div class="flex items-center">
+            <div class="w-12 h-12 bg-white rounded-full flex items-center justify-center mr-4">
+              <img src="/src/assets/image/phone.png" alt="phone">
+            </div>
+            <span class="font-mukta font-medium text-lg text-white">+55 14 9999-9999</span>
+          </div>
+
+          <div class="flex items-center">
+            <div class="w-12 h-12 bg-white rounded-full flex items-center justify-center mr-4">
+              <img src="/src/assets/image/EnvelopeSimple.png" alt="EnvelopeSimple">
+            </div>
+            <address>
+              <span class="font-mukta font-medium text-lg text-white">centropaulasouza@etec.sp.gov.br</span>
+            </address>
+          </div>
+        </div>
+
+        <div class="w-80 space-y-4">
+          <h4 class="font-semibold text-lg font-mukta text-white">Sobre a Etec Cafelândia</h4>
+          <p class="w-80 font-inter font-medium text-xs text-white leading-6 text-justify">Com mais de 20 anos de atuação, a unidade da Etec Professora Helcy Moreira Martins Aguiar se destaca no ensino médio e técnico, recebendo constantemente menções e congratulações em todo o estado de São Paulo. </p>
+
+          <div class="flex space-x-4">
+            <div class="w-12 h-12 bg-white rounded-full flex items-center justify-center">
+              <img src="/src/assets/image/InstagramLogo.png" alt="InstagramLogo">
+            </div>
+
+            <div class="w-12 h-12 bg-white rounded-full flex items-center justify-center">
+              <img src="/src/assets/image/FacebookLogo.png" alt="FacebookLogo">
+            </div>
+
+            <div class="w-12 h-12 bg-white rounded-full flex items-center justify-center">
+              <img src="/src/assets/image/LinkedinLogo.png" alt="LinkedinLogo">
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <div class="flex items-center justify-center bg-error text-white absolute bottom-0 w-full h-16">
+        <p>Etec Professora Helcy Moreira Martins Aguiar - 2022 © Todos os direitos reservados.</p>
+      </div>
+    </footer>
+  </body>
+</html>
